@@ -3,7 +3,6 @@ import { TodoAdd } from './todoAdd';
 import { useTodos } from '../hooks';
 
 
-
 export const TodoApp = () => {
 
     const { todos, todosCount, pendingTodosCount, handleDeleteTodo, handleToggleTodo, handleNewTodo } = useTodos();
